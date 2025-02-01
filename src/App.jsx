@@ -19,8 +19,8 @@ function App() {
     return await response.json();
   }
 
-  function addNewTransaction(/*ev*/) {
-    // ev.preventDefault();
+  function addNewTransaction(ev) {
+    ev.preventDefault();
     const url = import.meta.env.VITE_API_URL + "/api/transaction";
 
     const price = name.split(" ")[0];
