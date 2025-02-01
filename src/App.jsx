@@ -14,14 +14,14 @@ function App() {
   }, []);
 
   async function getTransactions() {
-    const url = import.meta.env.VITE_API_URL + "/transactions";
+    const url = import.meta.env.VITE_API_URL + "/api/transactions";
     const response = await fetch(url);
     return await response.json();
   }
 
   function addNewTransaction(/*ev*/) {
     // ev.preventDefault();
-    const url = import.meta.env.VITE_API_URL + "/transaction";
+    const url = import.meta.env.VITE_API_URL + "/api/transaction";
 
     const price = name.split(" ")[0];
     console.log(url);
