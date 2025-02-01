@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -31,7 +31,7 @@ form input {
   border-radius: 5px;
 }
 
-form input[type='datetime-local'] {
+form input[type="datetime-local"] {
   color: #777;
 }
 
@@ -41,7 +41,7 @@ form div.basic {
   margin-bottom: 5px;
 }
 
-form button[type='submit'] {
+form button[type="submit"] {
   width: 100%;
   margin-top: 5px;
   border: 0;
